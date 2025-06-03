@@ -4,6 +4,32 @@ own:
 
 # **Gantt Chart Program – Dave Ranola & Shengxin Chen**
 
+
+
+---
+
+## **How to Compile the Program**
+
+To compile the Gantt Chart program, use the following command in your terminal:
+
+```bash
+gcc -o gantt main.c printGannt.c userInput.c
+```
+
+**Explanation:**
+
+* `gcc` — invokes the GNU Compiler Collection.
+* `-o gantt` — specifies the output executable file will be named `gantt`.
+* `main.c printGannt.c userInput.c` — list of source files used in the program.
+
+After compiling, run the program using:
+
+```bash
+./gantt
+```
+
+> Ensure all source files are located in the same directory when compiling.
+
 ---
 
 ## **1. How is the Gantt Chart Displayed?**
